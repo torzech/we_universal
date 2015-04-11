@@ -106,7 +106,7 @@ a:active {
 .inventea-dashboard {
 	position: relative;
 	min-height: 240px;
-	background: url("./images/dashboard.jpg") center center no-repeat;
+	/*background: url("./images/dashboard.jpg") center center no-repeat;*/
 	background-size: cover;
 }
 
@@ -141,7 +141,7 @@ a:active {
  * Forum name and description
  */
 .inventea-sitename {
-	padding: 76px 50px 98px;
+	/*padding: 76px 50px 98px;*/
 	color: #fff;
 	font-size: 14px;
 }
