@@ -48,7 +48,11 @@ body {
  * Forum name and description
  */
 .inventea-sitename {
-	padding: 43px 25px 46px;
+	/*padding: 43px 25px 46px;*/
+}
+
+.inventea-sitename h1 a img {
+    max-width: 90%;
 }
 
 /**
