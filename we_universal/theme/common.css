@@ -252,6 +252,11 @@ ul.linklist.inventea-user-menu > li + li {
 	color: #eee;
 }
 
+.inventea-menu li > a.red {
+    font-weight: bold;
+    color: #f00;
+}
+
 .inventea-menu li > a:focus,
 .inventea-menu li > a:hover,
 .inventea-menu li > a:active {

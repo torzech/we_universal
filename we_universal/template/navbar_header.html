@@ -6,9 +6,9 @@
 			<!-- IF S_DISPLAY_SEARCH -->
 				<!-- IF S_REGISTERED_USER --><li><a href="{U_SEARCH_SELF}" role="menuitem">{L_SEARCH_SELF}</a></li><!-- ENDIF -->
 				<!-- IF S_USER_LOGGED_IN --><li><a href="{U_SEARCH_NEW}" role="menuitem">{L_SEARCH_NEW}</a></li><!-- ENDIF -->
-				<!-- IF S_LOAD_UNREADS --><li><a href="{U_SEARCH_UNREAD}" role="menuitem">{L_SEARCH_UNREAD}</a></li><!-- ENDIF -->
 				<li><a href="{U_SEARCH_UNANSWERED}" role="menuitem">{L_SEARCH_UNANSWERED}</a></li>
 				<li><a href="{U_SEARCH_ACTIVE_TOPICS}" role="menuitem">{L_SEARCH_ACTIVE_TOPICS}</a></li>
+                <!-- IF S_LOAD_UNREADS and S_HAS_UNREAD --><li><a href="{U_SEARCH_UNREAD}" role="menuitem" class="red">{L_SEARCH_UNREAD}</a></li><!-- ENDIF -->
 			<!-- ENDIF -->
 
 			<!-- EVENT navbar_header_quick_links_after -->
