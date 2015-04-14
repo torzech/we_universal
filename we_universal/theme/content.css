@@ -753,11 +753,12 @@ blockquote.uncited {
 }
 
 blockquote {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	/*margin-top: 15px;*/
+	/*margin-bottom: 15px;*/
 	border-color: #ddd;
 	background: #fbfbfb;
-	font-size: 14px;
+	font-size: 12px;
+    color: #666;
 }
 
 blockquote blockquote {
@@ -774,12 +775,12 @@ blockquote::before {
 	content: "\f10d";
 	display: block;
 	font-family: FontAwesome;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 blockquote cite {
 	margin-top: -22px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 a.postlink {
