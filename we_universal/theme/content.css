@@ -409,7 +409,7 @@ dl.faq dt {
 
 /* Bottom padding is a place for back to top button */
 .post .postbody {
-	padding-bottom: 36px;
+	/*padding-bottom: 36px;*/
 }
 
 /* User profile */
@@ -515,11 +515,12 @@ ul.profile-icons {
 
 p.author {
 	margin: 1px 0 10px;
-	padding: 0 0 10px;
+	/*padding: 0 0 10px;*/
 	border-bottom: 1px dotted #c2c2c2;
 	color: #525252;
-	line-height: 18px;
+	line-height: 10px;
 	font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 .postbody .content,
