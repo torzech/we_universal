@@ -1,3 +1,16 @@
+2.4.2
+-----
+
+- Update for phpBB 3.1.5
+- Adjust "Total redirects" row width on index [#42]
+
+
+2.4.1
+-----
+
+- Update for phpBB 3.1.4
+
+
 2.4.0
 -----
 
@@ -9,6 +22,14 @@
 - Changed dashboard size from 1170x230 to 1170x240px
 - Moved media queries CSS to `responsive.css`
 - Additional `<body>` classes: `logged-in` and `logged-out`
+
+
+2.3.1
+-----
+
+- Update for phpBB 3.0.13
+- Update Zepto.js 1.1.6
+- Update Font Awesome 4.3.0 and register link icon from mobile view
 
 
 2.3.0
